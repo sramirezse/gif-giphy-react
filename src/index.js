@@ -5,6 +5,7 @@ import './index.css';
 import Bootstrap from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css';
+import Enzyme from 'enzyme';
 
 // import App from './App';
 

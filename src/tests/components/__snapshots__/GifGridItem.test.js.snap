@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifGridItem></GifGridItem> Debe de mostrar el componente correctamente 1`] = `
+<div
+  className="col-lg-3 col-md-6 col-sm-12 animate__animated animate__flip"
+  id="divprincipal"
+>
+  <div
+    className="card card-gif"
+  >
+    <img
+      alt="Hola soy gokú"
+      className="card-img-top"
+      src="https://localhost"
+    />
+    <div
+      className="card-body"
+    >
+      <h5
+        className="card-title"
+      >
+        Hola soy gokú
+      </h5>
+      <a
+        className="btn btn-primary"
+        href="URL"
+      >
+        Ver en GYPHY
+      </a>
+    </div>
+  </div>
+</div>
+`;
