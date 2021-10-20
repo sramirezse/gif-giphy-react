@@ -3,7 +3,7 @@ import React from 'react'
 export const GifGridItem = ({ id, title, url, giphyUrl }) => {
     console.log('hhhhhhh',title, id, url, giphyUrl);
     return (
-        <div className="col-lg-3 col-md-6 col-sm-12">
+        <div className="col-lg-3 col-md-6 col-sm-12 animate__animated animate__flip">
             <div className="card card-gif" >
                 <img src={url} className="card-img-top" alt="" />
                     <div className="card-body">

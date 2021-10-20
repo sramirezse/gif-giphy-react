@@ -3,7 +3,6 @@ export const getGifs = async (category) => {
     const resp = await fetch(url + category);
     const { data } = await resp.json();
 
-    console.log('identificador',data);
     const gifs = data.map(img => {
         return {
             id: img.id,

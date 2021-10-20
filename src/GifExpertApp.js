@@ -10,7 +10,7 @@ export const GifExpertApp = () => {
     // }
     return (
         <div>
-            <h2> GifExpertAppJS </h2>
+            <h2 className='animate__animated animate__lightSpeedInRight'> GifExpertAppJS </h2>
             <CategoryAdd setCategories={setCategories} />
             <hr></hr>
 

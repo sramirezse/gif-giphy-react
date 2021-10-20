@@ -4,6 +4,8 @@ import { GifExpertApp } from './GifExpertApp';
 import './index.css';
 import Bootstrap from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'animate.css';
+
 // import App from './App';
 
 ReactDOM.render(
