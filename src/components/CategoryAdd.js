@@ -13,7 +13,7 @@ export const CategoryAdd = ({setCategories}) => {
         e.preventDefault();
         if(inputValue.trim().length >= 2)
         setCategories(cats=>
-            [...cats, inputValue]
+            [inputValue, ...cats]
         );
         // console.log(999);
         // setCategories( cats=> ['otra serie',...catss])

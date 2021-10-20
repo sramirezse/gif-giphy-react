@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const GifGridItem = ({ id, title, url, giphyUrl }) => {
-    console.log(title, id, url, giphyUrl);
+    console.log('hhhhhhh',title, id, url, giphyUrl);
     return (
         <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="card card-gif" >
