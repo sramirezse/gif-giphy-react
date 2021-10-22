@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifGrid /> Crear el snapshot 1`] = `
+<div>
+  <h3
+    className="animate__animated animate__lightSpeedInRight"
+  >
+    Hola
+  </h3>
+  <div
+    className="loader"
+    id="loadingDiv"
+  >
+    Loading...
+  </div>
+  <div
+    className="row"
+  />
+</div>
+`;
+
+exports[`Pruebas en <GifGrid /> Debe de mostrar items cuando se cargan images useFetchGifs 1`] = `
+<div>
+  <h3
+    className="animate__animated animate__lightSpeedInRight"
+  >
+    Hola
+  </h3>
+  <div
+    className="loader"
+    id="loadingDiv"
+  >
+    Loading...
+  </div>
+  <div
+    className="row"
+  >
+    <GifGridItem
+      giphyUrl="http://url.com/img.jpg"
+      id={1}
+      key="1"
+      title="img.title"
+      url="http://url.com/img.jpg"
+    />
+  </div>
+</div>
+`;

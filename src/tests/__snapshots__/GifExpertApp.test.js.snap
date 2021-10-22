@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifExpertApp /> Snapshot 1`] = `
+<div>
+  <h2
+    className="animate__animated animate__lightSpeedInRight"
+  >
+     GifExpertAppJS 
+  </h2>
+  <CategoryAdd
+    setCategories={[Function]}
+  />
+  <hr />
+  <GifGrid
+    category="Dragon ball"
+    key="Dragon ball"
+  />
+</div>
+`;
